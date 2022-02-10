@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://open-src-soc.org/booths.html</loc>
-        <lastmod>2022-01-26</lastmod>
+        <loc>http://open-src-soc.org/exhibition.html</loc>
+        <lastmod>2022-02-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -24,7 +24,7 @@
 
     <url>
         <loc>http://open-src-soc.org/posters.html</loc>
-        <lastmod>2022-02-04</lastmod>
+        <lastmod>2022-02-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -94,7 +94,7 @@
 
     <url>
         <loc>http://open-src-soc.org/sponsors.html</loc>
-        <lastmod>2022-01-27</lastmod>
+        <lastmod>2022-02-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
