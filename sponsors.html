@@ -92,7 +92,107 @@ H3        { color: #0a6b7c }
 <div id="main">
     <div class="content">
         <h1>Sponsors</h1>
-<p>[Sponsors' clickable logos will go there.]</p>
+<style>
+.platinum {
+    display: grid;
+    grid-template-columns: repeat(2, 47.5%);
+    grid-template-rows: 120px;
+    grid-gap: 5%;
+    justify-content: center;
+}
+.platinum__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    justify-self: center;
+}
+.gold {
+    display: grid;
+    grid-template-columns: repeat(2, 42.5%);
+    grid-template-rows: 120px;
+    grid-gap: 10%;
+    justify-content: center;
+}
+.gold__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    justify-self: center;
+}
+.silver {
+    display: grid;
+    grid-template-columns: repeat(3, 37.5%);
+    grid-template-rows: 120px;
+    grid-gap: 1.75%;
+    justify-content: center;
+}
+.silver__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    justify-self: center;
+}
+</style>
+
+<p style="text-align: center">
+The Platinum sponsors of the <em>Spring 2022 RISC-V Week</em> are:
+</p>
+<div class="platinum">
+  <figure class="”platinum__item" platinum__item--1">
+    <a href="https://cea.fr"><img src="media/logos/PLAT-1.png" alt class="platinum__img" /></a>
+  </figure>
+  <figure class="platinum__item platinum__item--2">
+    <a href="https://cea.fr"><img src="media/logos/PLAT-2.png" alt class="platinum__img" /></a>
+  </figure>
+</div>
+
+<p style="text-align: center">
+The Gold sponsors of the <em>Spring 2022 RISC-V Week</em> are:
+<div class="gold">
+  <figure class="”gold__item" gold__item--1">
+    <a href="https://www.thalesgroup.com"><img src="media/logos/THALES.png" alt class="gold__img" /></a>
+  </figure>
+  <figure class="gold__item gold__item--2">
+    <a href="https://cea.fr"><img src="media/logos/PLAT-2.png" alt class="gold__img" /></a>
+  </figure>
+</div>
+<div class="gold">
+  <figure class="”gold__item" gold__item--1">
+    <a href="https://cea.fr"><img src="media/logos/PLAT-3.png" alt class="gold__img" /></a>
+  </figure>
+  <figure class="gold__item gold__item--2">
+    <a href="https://cea.fr"><img src="media/logos/PLAT-4.png" alt class="gold__img" /></a>
+  </figure>
+</div>
+</p>
+
+<p style="text-align: center">
+The Silver sponsors of the <em>Spring 2022 RISC-V Week</em> are:
+</p>
+<div class="silver">
+  <figure class="”silver__item" silver__item--1">
+    <a href="https://cea.fr"><img src="media/logos/SILV-1.png" alt class="silver__img" /></a>
+  </figure>
+  <figure class="”silver__item" silver__item--2">
+    <a href="https://cea.fr"><img src="media/logos/SILV-2.png" alt class="silver__img" /></a>
+  </figure>
+  <figure class="silver__item silver__item--3">
+    <a href="https://cea.fr"><img src="media/logos/SILV-3.jpg" alt class="silver__img" /></a>
+  </figure>
+</div>
+<div class="silver">
+  <figure class="”silver__item" silver__item--1">
+    <a href="https://cea.fr"><img src="media/logos/SILV-4.png" alt class="silver__img" /></a>
+  </figure>
+  <figure class="”silver__item" silver__item--2">
+    <a href="https://cea.fr"><img src="media/logos/SILV-5.png" alt class="silver__img" /></a>
+  </figure>
+  <figure class="silver__item silver__item--3">
+    <a href="https://cea.fr"><img src="media/logos/SILV-6.jpg" alt class="silver__img" /></a>
+  </figure>
+</div>
+
+
 <h1>Sponsoring the full <em>RISC-V Week</em></h1>
 <p>The <em>Spring 2022 RISC-V Week</em> held in Paris on May 3-5 2022 is a unique opportunity to connect over three days with the RISC-V and open source hardware communities.</p>
 <p>Sponsorship for the event is a special occasion to associate your brand, project or organization to a high value audience of engineers, developers, executives and researchers who are key members to the world’s most advanced RISC-V and open source hardware community.</p>
@@ -204,13 +304,13 @@ The organizers of the <em>Spring 2022 RISC-V Week</em> are
 </p>
 <div class="organizers">
   <figure class="”organizers__item" organizers__item--1">
-    <a href="https://www.cea.fr"><img src="media/CEA-logo.jpg" alt="CEA logo" class="organizers__img" /></a>
+    <a href="https://www.cea.fr"><img src="media/logos/CEA.jpg" alt="CEA logo" class="organizers__img" /></a>
   </figure>
   <figure class="organizers__item organizers__item--2">
-    <a href="https://www.irtnanoelec.fr"><img src="media/IRT-NANOELEC-logo.png" alt="IRT NanoElec logo" class="organizers__img" /></a>
+    <a href="https://www.irtnanoelec.fr"><img src="media/logos/IRT-NANOELEC.png" alt="IRT NanoElec logo" class="organizers__img" /></a>
   </figure>
   <figure class="organizers__item organizers__item--3">
-    <a href="https://riscv.org"><img src="media/RISC-V-logo.png" alt="RISC-V International logo" class="organizers__img" /></a>
+    <a href="https://riscv.org"><img src="media/logos/RISC-V.png" alt="RISC-V International logo" class="organizers__img" /></a>
   </figure>
 </div>
 
@@ -224,7 +324,7 @@ The organizers of the <em>Spring 2022 RISC-V Week</em> are
         Site generated by <a href="http://jaspervdj.be/hakyll">Hakyll</a>
         and <a href="http://johnmacfarlane.net/pandoc">pandoc</a>
         −
-         Last modified on <a href="https://github.com/open-src-soc/2022-05/commits/gh-pages">2022-02-22T18:22:13+01:00</a> 
+         Last modified on <a href="https://github.com/open-src-soc/2022-05/commits/gh-pages">2022-02-25T15:14:38+01:00</a> 
     </div>
 </footer>
 
