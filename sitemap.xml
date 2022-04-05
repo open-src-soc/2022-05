@@ -3,7 +3,14 @@
 
     <url>
         <loc>http://open-src-soc.org/exhibition.html</loc>
-        <lastmod>2022-03-28</lastmod>
+        <lastmod>2022-04-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>http://open-src-soc.org/exhibitors-table.html</loc>
+        <lastmod>2022-04-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
